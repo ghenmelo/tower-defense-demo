@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tower Defense · v1.0-alpha</title>
+    <title>Tower Defense · v1.1-alpha</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <style>
       html, body { margin: 0; height: 100%; background: #1a1410; overflow: hidden; font-family: system-ui, sans-serif; }
@@ -18,7 +18,7 @@
   <body>
     <canvas id="unity-canvas" tabindex="-1"></canvas>
     <div id="loading"><div id="status">Baixando o jogo…</div><div id="bar"><div id="fill"></div></div></div>
-    <div id="version">v1.0-alpha · 675e30b</div>
+    <div id="version">v1.1-alpha · 77f335f</div>
     <div id="error"></div>
     <script>
       // O GitHub recusa arquivos acima de 100 MB, então os dados vêm em partes
@@ -69,7 +69,7 @@
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Guine",
           productName: "Tower Defense",
-          productVersion: "v1.0-alpha",
+          productVersion: "v1.1-alpha",
           showBanner: (msg, type) => { if (type === "error") showError(msg); },
         };
         const canvas = document.getElementById("unity-canvas");
